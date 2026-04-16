@@ -12,8 +12,8 @@ namespace CalculatorApp.Tests
         [Fact]
         public void Add_PositiveNumbers_ReturnsSum()
         {
-            double result = _calc.Add(3, 5);
-            Assert.Equal(8, result);
+            double result = _calc.Add(3, 4);
+            Assert.Equal(7, result);
         }
 
         [Fact]
